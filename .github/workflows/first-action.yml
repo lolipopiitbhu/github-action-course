@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: First Workflow
+
+on: workflow_dispatch
+
+jobs:
+  first-job-name:
+    runs-on: ubantu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Bye Goodbye
+        run: echo "Done for now, see you."
